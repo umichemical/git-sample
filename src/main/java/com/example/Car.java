@@ -1,7 +1,7 @@
 package com.example;
 
 public class Car {
-	
+
 	private int speed;
 
 	public int getSpeed() {
@@ -11,7 +11,9 @@ public class Car {
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
-	
-	
+
+	public String toString() {
+		return "Car [speed=" + speed + "]";
+	}
 
 }
